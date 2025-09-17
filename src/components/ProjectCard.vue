@@ -1,26 +1,22 @@
 <template>
     <div class="border rounded-lg p-4 shadow-md">
-        <!-- Carrossel de imagens -->
-        <div class="carousel overflow-hidden relative h-48">
+        <div class="carousel overflow-hidden relative h-64">
             <img v-for="(img, index) in projeto.imagens" :key="index" :src="img"
-                class="absolute w-full h-full object-cover transition-opacity duration-500"
+                class="absolute w-full h-full transition-opacity duration-500"
                 :class="{ 'opacity-100': index === imagemAtual, 'opacity-0': index !== imagemAtual }" />
         </div>
 
-        <!-- Título e descrição -->
         <h2 class="text-xl font-bold mt-4">{{ projeto.titulo }}</h2>
-        <p class="text-gray-700">{{ projeto.descricao }}</p>
+        <p>{{ projeto.descricao }}</p>
 
-        <!-- Tecnologias -->
         <div class="flex gap-2 mt-2">
             <img v-for="(tech, index) in projeto.tecnologias" :key="index" :src="tech.icone" :alt="tech.nome"
-                class="w-6 h-6" />
+                class="w-9 h-9" />
         </div>
 
-        <!-- Botão de acesso -->
         <a :href="projeto.link" target="_blank"
             class="inline-block mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-            Acessar Projeto
+            Repositório
         </a>
     </div>
 </template>

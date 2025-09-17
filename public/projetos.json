@@ -2,22 +2,119 @@
     {
         "id": 1,
         "titulo": "Portifólio",
-        "descricao": "Desenvolvi essa aplicação para expor os projetos pessoais que tenho desenvolvido. Ela consome um JSON com as informações de cada projeto, e retorna um card para cada um deles, contendo título, descrição, link da aplicação, link do repositório no GitHub, imagem e a stack utilizada no desenvolviment.",
+        "descricao": "Desenvolvi essa aplicação para expor os projetos pessoais que tenho desenvolvido. Ela consome um JSON com as informações de cada projeto, e retorna um card para cada um deles, contendo título, descrição, link da aplicação, link do repositório no GitHub, imagem e a stack utilizada no desenvolvimento.",
         "imagens": [
-            "img1.jpg",
-            "img2.jpg",
-            "img3.jpg"
+            "/images/portifolio/img_1.png"
         ],
         "tecnologias": [
             {
-                "nome": "Vue",
-                "icone": "/images/vue.svg"
+                "nome": "Vue3",
+                "icone": "/images/icons/vue.svg"
             },
             {
                 "nome": "Tailwind",
-                "icone": "tailwind.svg"
+                "icone": "/images/icons/tailwind.svg"
             }
         ],
-        "link": "https://projeto-a.com"
+        "link": "https://github.com/estevaotl/novo-portifolio"
+    },
+    {
+        "id": 2,
+        "titulo": "Todo List",
+        "descricao": "Este é um projeto de Todo List desenvolvido em Vue 3, Json-server e TailwndCSS. Trata-se de um projeto introdutório do curso do Tiago Matos, com o objetivo de aprofundar os conhecimentos em Vue, explorando os recursos do Vue 3, bem como a utilização do TailwindCSS para a construção do frontend.",
+        "imagens": [
+            "/images/todo-list-vue-3/img_1.png",
+            "/images/todo-list-vue-3/img_2.png",
+            "/images/todo-list-vue-3/img_3.png"
+        ],
+        "tecnologias": [
+            {
+                "nome": "Vue3",
+                "icone": "/images/icons/vue.svg"
+            },
+            {
+                "nome": "Tailwind",
+                "icone": "/images/icons/tailwind.svg"
+            }
+        ],
+        "link": "https://github.com/estevaotl/todo-list-vue-3"
+    },
+    {
+        "id": 3,
+        "titulo": "Mini Api",
+        "descricao": "Este é um projeto de uma Mini API desenvolvida em NodeJS, utilizando o framework Fastify e Swagger. Trata-se de um projeto de uma vídeo-aula da Rocketseat, com o objetivo de aprofundar os conhecimentos em Node e também na utilização do Swagger, para tornar as APIs auto-documentáveis.",
+        "imagens": [
+            "/images/api-swagger/img_1.png",
+            "/images/api-swagger/img_2.png",
+            "/images/api-swagger/img_3.png"
+        ],
+        "tecnologias": [
+            {
+                "nome": "Fastify",
+                "icone": "/images/icons/fastify.svg"
+            },
+            {
+                "nome": "NodeJS",
+                "icone": "/images/icons/nodejs.svg"
+            },
+            {
+                "nome": "Swagger",
+                "icone": "/images/icons/swagger.svg"
+            }
+        ],
+        "link": "https://github.com/estevaotl/projeto-api-nodejs-swagger"
+    },
+    {
+        "id": 4,
+        "titulo": "Mini E-commerce",
+        "descricao": "Este é um projeto de mini e-commerce desenvolvido em PHP 8.3, utilizando o micro-framework Slim 4 e o motor de templates Twig 3 com arquitetura MVC pura.",
+        "imagens": [
+            "/images/erp/img_1.png",
+            "/images/erp/img_2.png",
+            "/images/erp/img_3.png",
+            "/images/erp/img_4.png",
+            "/images/erp/img_5.png",
+            "/images/erp/img_6.png",
+            "/images/erp/img_7.png",
+            "/images/erp/img_8.png"
+        ],
+        "tecnologias": [
+            {
+                "nome": "PHP",
+                "icone": "/images/icons/php.svg"
+            },
+            {
+                "nome": "Twig",
+                "icone": "/images/icons/twig.svg"
+            }
+        ],
+        "link": "https://github.com/estevaotl/projeto-erp"
+    },
+    {
+        "id": 5,
+        "titulo": "Listagem de filmes e séries",
+        "descricao": "Esse projeto foi feito visando o aprofundamento no estudo do front-end e consumo de API's, na qual utilizei a TMDB, para exibição de filmes e séries, que estão em alta, no cinema etc.",
+        "imagens": [
+            "/images/filmes-series/img_1.png",
+            "/images/filmes-series/img_2.png",
+            "/images/filmes-series/img_3.png",
+            "/images/filmes-series/img_4.png",
+            "/images/filmes-series/img_5.png"
+        ],
+        "tecnologias": [
+            {
+                "nome": "HTML",
+                "icone": "/images/icons/html-5.svg"
+            },
+            {
+                "nome": "CSS",
+                "icone": "/images/icons/css3.svg"
+            },
+            {
+                "nome": "Javascript",
+                "icone": "/images/icons/javascript.svg"
+            }
+        ],
+        "link": "https://github.com/estevaotl/projeto-listagem-filmes-series"
     }
 ]

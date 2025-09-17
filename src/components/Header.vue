@@ -26,17 +26,17 @@
 
             <div class="text-center items-center flex justify-center gap-2 mt-2 uppercase poppins-semibold">
                 <a href="https://www.linkedin.com/in/estevao-leite/" target="_blank" class="flex p-2 bg-[#00FF08] rounded-sm items-center text-xs">
-                    <img src="/images/linkedin.svg" alt="Imagem do logo do linkedin" srcset="" class="h-4 mr-1 w-4">
+                    <img src="/images/icons/linkedin.svg" alt="Imagem do logo do linkedin" srcset="" class="h-4 mr-1 w-4">
                     Linkedin
                 </a>
 
                 <a href="https://github.com/estevaotl" target="_blank" class="flex p-2 bg-[#00FF08] rounded-sm items-center text-xs">
-                    <img src="/images/github.svg" alt="Imagem do logo do github" srcset="" class="h-5 mr-1 w-5">
+                    <img src="/images/icons/github.svg" alt="Imagem do logo do github" srcset="" class="h-5 mr-1 w-5">
                     GitHub
                 </a>
 
                 <a href="https://wa.me/5522997249606?text=Olá,%20gostaria%20de%20conversar." target="_blank" class="flex p-2 bg-[#00FF08] rounded-sm items-center text-xs">
-                    <img src="/images/whatsapp.svg" alt="Imagem do logo do whatsapp" srcset="" class="h-5 mr-1 w-5">
+                    <img src="/images/icons/whatsapp.svg" alt="Imagem do logo do whatsapp" srcset="" class="h-5 mr-1 w-5">
                     Whatsapp
                 </a>
             </div>
