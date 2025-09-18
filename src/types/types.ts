@@ -1,4 +1,3 @@
-// types.ts
 export interface Tecnologia {
     nome: string
     icone: string

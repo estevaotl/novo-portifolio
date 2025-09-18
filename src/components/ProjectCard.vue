@@ -15,14 +15,14 @@
         </div>
 
         <a :href="projeto.link" target="_blank"
-            class="inline-block mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+            class="inline-block mt-4 bg-[#00FF08] px-4 py-2 rounded hover:bg-[#00ff08d8]">
             Repositório
         </a>
     </div>
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, defineProps } from 'vue'
+import { ref, onMounted } from 'vue'
 import type { Projeto } from '../types/types.ts'
 
 const props = defineProps<{
@@ -37,11 +37,3 @@ onMounted(() => {
     }, 3000)
 })
 </script>
-
-<style scoped>
-.carousel img {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-</style>

@@ -116,5 +116,25 @@
             }
         ],
         "link": "https://github.com/estevaotl/projeto-listagem-filmes-series"
+    },
+    {
+        "id": 6,
+        "titulo": "Mini API Rest",
+        "descricao": "Esse projeto foi feito visando o aprofundamento no estudo do back-end. Para isso, foi criado uma API Restful para envio de emails, utilizando principios do Solid.",
+        "imagens": [
+            "/images/api-nodejs-typescript/img_1.png",
+            "/images/api-nodejs-typescript/img_2.png"
+        ],
+        "tecnologias": [
+            {
+                "nome": "NodeJS",
+                "icone": "/images/icons/nodejs.svg"
+            },
+            {
+                "nome": "Typescript",
+                "icone": "/images/icons/typescript.svg"
+            }
+        ],
+        "link": "https://github.com/estevaotl/api-rest-solid-nodejs-typescript"
     }
 ]
