@@ -42,7 +42,7 @@
     {
         "id": 3,
         "titulo": "Mini Api",
-        "descricao": "Este é um projeto de uma Mini API desenvolvida em NodeJS, utilizando o framework Fastify e Swagger. Trata-se de um projeto de uma vídeo-aula da Rocketseat, com o objetivo de aprofundar os conhecimentos em Node e também na utilização do Swagger, para tornar as APIs auto-documentáveis.",
+        "descricao": "Este é um projeto de uma Mini API desenvolvida em NodeJS, utilizando o framework Fastify e Swagger, com o objetivo de aprofundar os conhecimentos em Node e também na utilização do Swagger, para tornar as APIs auto-documentáveis.",
         "imagens": [
             "/images/api-swagger/img_1.png",
             "/images/api-swagger/img_2.png",
@@ -67,7 +67,7 @@
     {
         "id": 4,
         "titulo": "Mini E-commerce",
-        "descricao": "Este é um projeto de mini e-commerce desenvolvido em PHP 8.3, utilizando o micro-framework Slim 4 e o motor de templates Twig 3 com arquitetura MVC pura.",
+        "descricao": "Este é um projeto de mini e-commerce desenvolvido em PHP 8.3, utilizando o micro-framework Slim 4 e o motor de templates Twig 3 com arquitetura MVC pura. Foi desenvolvido um mini sistema e-commerce com crus de produtos, cupons e finalização do pedido.",
         "imagens": [
             "/images/erp/img_1.png",
             "/images/erp/img_2.png",

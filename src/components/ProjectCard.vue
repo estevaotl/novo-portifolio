@@ -7,7 +7,7 @@
         </div>
 
         <h2 class="text-xl font-bold mt-4">{{ projeto.titulo }}</h2>
-        <p>{{ projeto.descricao }}</p>
+        <p class="text-justify">{{ projeto.descricao }}</p>
 
         <div class="flex gap-2 mt-2">
             <img v-for="(tech, index) in projeto.tecnologias" :key="index" :src="tech.icone" :alt="tech.nome"
