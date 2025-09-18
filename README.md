@@ -1,5 +1,16 @@
-# Vue 3 + TypeScript + Vite
+# ✔️ Portifólio Pessoal (Vue3 + Typescript + TailwindCSS)
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este é um projeto do meu portifólio pessoal, no qual utilizei **Vue 3**, **Typescript ** e **TailwndCSS**. Tem o objetivo de colocar em prática os conhecimentos em Vue, explorando os recursos do Vue 3, bem como a utilização do TailwindCSS para a construção do frontend e Typescript nos arquivos dinâmicos. Além disso, utilizei um arquivo json, para armazenar informações dos projetos, que são renderizados no componente como cards.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 👨‍💻 Autor
+
+- Desenvolvido por **Estêvão Leite**
+- 📧 Email: [estevaotlnf@gmail.com](mailto:estevaotlnf@gmail.com)
+- 🔗 [LinkedIn](https://linkedin.com/in/estevao-leite)
+
+---
+
+## 📄 Licença
+
+- Este projeto está sob a licença MIT.
+- Sinta-se livre para usar, modificar e contribuir.
