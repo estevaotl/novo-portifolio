@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Footer from './components/Footer.vue';
 import Header from './components/Header.vue';
 import Project from './components/Project.vue';
 </script>
@@ -8,6 +9,7 @@ import Project from './components/Project.vue';
     <section>
       <Header></Header>
       <Project></Project>
+      <Footer></Footer>
     </section>
   </main>
 </template>
