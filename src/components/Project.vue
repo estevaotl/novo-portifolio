@@ -12,7 +12,7 @@ import type { Projeto } from '../types/types.ts'
 const projetos = ref<Projeto[]>([])
 
 onMounted(async () => {
-    const res = await fetch('../../public/projetos.json')
+    const res = await fetch('/projetos.json')
     projetos.value = await res.json()
 })
 </script>
