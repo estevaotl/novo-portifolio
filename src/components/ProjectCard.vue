@@ -1,39 +1,51 @@
-<template>
-    <div class="border rounded-lg p-4 shadow-md">
-        <div class="carousel overflow-hidden relative h-64">
-            <img v-for="(img, index) in projeto.imagens" :key="index" :src="img"
-                class="absolute w-full h-full transition-opacity duration-500"
-                :class="{ 'opacity-100': index === imagemAtual, 'opacity-0': index !== imagemAtual }" />
-        </div>
-
-        <h2 class="text-xl font-bold mt-4">{{ projeto.titulo }}</h2>
-        <p class="text-justify">{{ projeto.descricao }}</p>
-
-        <div class="flex gap-2 mt-2">
-            <img v-for="(tech, index) in projeto.tecnologias" :key="index" :src="tech.icone" :alt="tech.nome"
-                class="w-9 h-9" />
-        </div>
-
-        <a :href="projeto.link" target="_blank"
-            class="inline-block mt-4 bg-[#00FF08] px-4 py-2 rounded hover:bg-[#00ff08d8]">
-            Repositório
-        </a>
-    </div>
-</template>
-
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
-import type { Projeto } from '../types/types.ts'
-
-const props = defineProps<{
-    projeto: Projeto
-}>()
-
-const imagemAtual = ref(0)
-
-onMounted(() => {
-    setInterval(() => {
-        imagemAtual.value = (imagemAtual.value + 1) % props.projeto.imagens.length
-    }, 3000)
-})
+import ProjectVisual from "./ProjectVisual.vue";
+import SvgIcon from "./SvgIcon.vue";
+import type { Projeto } from "../types/types";
+withDefaults(defineProps<{ projeto: Projeto; featured?: boolean }>(), {
+  featured: false,
+});
+defineEmits<{ open: [] }>();
 </script>
+<template>
+  <article class="project-card" :class="{ 'project-featured': featured }">
+    <button
+      class="project-visual-button"
+      type="button"
+      :aria-label="`Conhecer o projeto ${projeto.titulo}`"
+      @click="$emit('open')"
+    >
+      <ProjectVisual :project="projeto" /><span class="visual-open"
+        ><SvgIcon name="arrow-up-right" :size="22"
+      /></span>
+    </button>
+    <div class="project-card-copy">
+      <div class="project-meta">
+        <span>{{ projeto.contexto }}</span
+        ><span>{{ projeto.categoria }}</span>
+      </div>
+      <h3>{{ projeto.titulo }}</h3>
+      <p>{{ projeto.descricao }}</p>
+      <ul class="technology-list" aria-label="Tecnologias utilizadas">
+        <li v-for="tech in projeto.tecnologias" :key="tech.nome">
+          {{ tech.nome }}
+        </li>
+      </ul>
+      <div class="project-card-actions">
+        <button
+          class="project-details-button"
+          type="button"
+          @click="$emit('open')"
+        >
+          Conhecer o projeto <SvgIcon name="arrow-right" :size="18" /></button
+        ><a
+          :href="projeto.link"
+          target="_blank"
+          rel="noopener noreferrer"
+          :aria-label="`Ver código de ${projeto.titulo} no GitHub`"
+          ><SvgIcon name="github" :size="19" /> Código</a
+        >
+      </div>
+    </div>
+  </article>
+</template>

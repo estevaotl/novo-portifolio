@@ -1,45 +1,60 @@
+<script setup lang="ts">
+import SystemLayers from "./SystemLayers.vue";
+import SvgIcon from "./SvgIcon.vue";
+import ReadingProgress from "./ReadingProgress.vue";
+</script>
+
 <template>
-    <section class="flex gap-40 justify-between items-center content-center">
-        <div class="">
-            <img src="/images/pessoa2.png" alt="" srcset="" class="animate-flutuar relative max-w-96">
+  <ReadingProgress />
+  <div class="hero-canvas">
+    <section id="inicio" class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="hero-introduction">
+          <span class="intro-line"></span> Estêvão Leite / Desenvolvedor Full
+          Stack
+        </p>
+        <h1 id="hero-title">Uma boa<br />interface é<br />só o começo.</h1>
+        <p class="hero-description">
+          Construo aplicações por inteiro. Da experiência na tela à estrutura
+          que faz tudo funcionar, com <strong>PHP, Laravel e Vue.js.</strong>
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projetos"
+            >Explore meus projetos <SvgIcon name="arrow-down" :size="18" /></a
+          ><a
+            class="hero-github"
+            href="https://github.com/estevaotl"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><SvgIcon name="github" :size="20" /> GitHub
+            <SvgIcon name="arrow-up-right" :size="15"
+          /></a>
         </div>
-
-        <div>
-            <h1 class="items-center text-center text-3xl poppins-extrabold">
-                Estêvão Tiengo Leite
-            </h1>
-
-            <h6 class="mt-5 items-center text-center poppins-semibold">
-                BACK END DEVELOPER
-            </h6>
-
-            <h6 class="mt-5 items-center text-center poppins-semibold">
-                Bacharel em Sistemas de Informação pelo CEFET-NF/RJ
-            </h6>
-
-            <p class="mt-5 text-justify poppins-regular">
-                Sou desenvolvedor de software desde 2021, com foco em sistemas de e-commerce e marketing digital. Tenho
-                experiência na criação e otimização de plataformas digitais, sempre buscando soluções eficientes e
-                escaláveis. Sou analítico, comprometido com a qualidade e estou em constante aprendizado para aprimorar
-                minhas habilidades e acompanhar as melhores práticas do mercado.
-            </p>
-
-            <div class="text-center items-center flex justify-center gap-2 mt-2 uppercase poppins-semibold">
-                <a href="https://www.linkedin.com/in/estevao-leite/" target="_blank" class="flex p-2 bg-[#00FF08] rounded-sm items-center text-xs">
-                    <img src="/images/icons/linkedin.svg" alt="Imagem do logo do linkedin" srcset="" class="h-4 mr-1 w-4">
-                    Linkedin
-                </a>
-
-                <a href="https://github.com/estevaotl" target="_blank" class="flex p-2 bg-[#00FF08] rounded-sm items-center text-xs">
-                    <img src="/images/icons/github.svg" alt="Imagem do logo do github" srcset="" class="h-5 mr-1 w-5">
-                    GitHub
-                </a>
-
-                <a href="https://wa.me/5522997249606?text=Olá,%20gostaria%20de%20conversar." target="_blank" class="flex p-2 bg-[#00FF08] rounded-sm items-center text-xs">
-                    <img src="/images/icons/whatsapp.svg" alt="Imagem do logo do whatsapp" srcset="" class="h-5 mr-1 w-5">
-                    Whatsapp
-                </a>
-            </div>
-        </div>
+        <p class="opportunity-note">
+          <span></span> Interesse em oportunidades remotas no Brasil
+        </p>
+      </div>
+      <SystemLayers />
+      <div class="hero-bottom">
+        <span>Da primeira interação à última consulta.</span
+        ><a href="#projetos"
+          >Conheça o meu trabalho <SvgIcon name="arrow-down" :size="16"
+        /></a>
+      </div>
     </section>
+  </div>
+  <div class="stack-strip" aria-label="Stack atual">
+    <div class="container stack-inner">
+      <span>Minha stack</span>
+      <ul>
+        <li>PHP</li>
+        <li>Laravel</li>
+        <li>Vue.js</li>
+        <li>JavaScript</li>
+        <li>MySQL</li>
+        <li>Docker</li>
+      </ul>
+      <SvgIcon name="layers" :size="24" />
+    </div>
+  </div>
 </template>

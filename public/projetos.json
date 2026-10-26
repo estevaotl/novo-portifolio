@@ -1,140 +1,354 @@
 [
-    {
-        "id": 1,
-        "titulo": "Portifólio",
-        "descricao": "Desenvolvi essa aplicação para expor os projetos pessoais que tenho desenvolvido. Ela consome um JSON com as informações de cada projeto, e retorna um card para cada um deles, contendo título, descrição, link da aplicação, link do repositório no GitHub, imagem e a stack utilizada no desenvolvimento.",
-        "imagens": [
-            "/images/projetos/portifolio/img_1.png"
-        ],
-        "tecnologias": [
-            {
-                "nome": "Vue3",
-                "icone": "/images/icons/vue.svg"
-            },
-            {
-                "nome": "Tailwind",
-                "icone": "/images/icons/tailwind.svg"
-            }
-        ],
-        "link": "https://github.com/estevaotl/novo-portifolio"
-    },
-    {
-        "id": 2,
-        "titulo": "Todo List",
-        "descricao": "Este é um projeto de Todo List desenvolvido em Vue 3, Json-server e TailwndCSS. Trata-se de um projeto introdutório do curso do Tiago Matos, com o objetivo de aprofundar os conhecimentos em Vue, explorando os recursos do Vue 3, bem como a utilização do TailwindCSS para a construção do frontend.",
-        "imagens": [
-            "/images/projetos/todo-list-vue-3/img_1.png",
-            "/images/projetos/todo-list-vue-3/img_2.png",
-            "/images/projetos/todo-list-vue-3/img_3.png"
-        ],
-        "tecnologias": [
-            {
-                "nome": "Vue3",
-                "icone": "/images/icons/vue.svg"
-            },
-            {
-                "nome": "Tailwind",
-                "icone": "/images/icons/tailwind.svg"
-            }
-        ],
-        "link": "https://github.com/estevaotl/todo-list-vue-3"
-    },
-    {
-        "id": 3,
-        "titulo": "Mini Api",
-        "descricao": "Este é um projeto de uma Mini API desenvolvida em NodeJS, utilizando o framework Fastify e Swagger, com o objetivo de aprofundar os conhecimentos em Node e também na utilização do Swagger, para tornar as APIs auto-documentáveis.",
-        "imagens": [
-            "/images/projetos/api-swagger/img_1.png",
-            "/images/projetos/api-swagger/img_2.png",
-            "/images/projetos/api-swagger/img_3.png"
-        ],
-        "tecnologias": [
-            {
-                "nome": "Fastify",
-                "icone": "/images/icons/fastify.svg"
-            },
-            {
-                "nome": "NodeJS",
-                "icone": "/images/icons/nodejs.svg"
-            },
-            {
-                "nome": "Swagger",
-                "icone": "/images/icons/swagger.svg"
-            }
-        ],
-        "link": "https://github.com/estevaotl/projeto-api-nodejs-swagger"
-    },
-    {
-        "id": 4,
-        "titulo": "Mini E-commerce",
-        "descricao": "Este é um projeto de mini e-commerce desenvolvido em PHP 8.3, utilizando o micro-framework Slim 4 e o motor de templates Twig 3 com arquitetura MVC pura. Foi desenvolvido um mini sistema e-commerce com crus de produtos, cupons e finalização do pedido.",
-        "imagens": [
-            "/images/projetos/erp/img_1.png",
-            "/images/projetos/erp/img_2.png",
-            "/images/projetos/erp/img_3.png",
-            "/images/projetos/erp/img_4.png",
-            "/images/projetos/erp/img_5.png",
-            "/images/projetos/erp/img_6.png",
-            "/images/projetos/erp/img_7.png",
-            "/images/projetos/erp/img_8.png"
-        ],
-        "tecnologias": [
-            {
-                "nome": "PHP",
-                "icone": "/images/icons/php.svg"
-            },
-            {
-                "nome": "Twig",
-                "icone": "/images/icons/twig.svg"
-            }
-        ],
-        "link": "https://github.com/estevaotl/projeto-erp"
-    },
-    {
-        "id": 5,
-        "titulo": "Listagem de filmes e séries",
-        "descricao": "Esse projeto foi feito visando o aprofundamento no estudo do front-end e consumo de API's, na qual utilizei a TMDB, para exibição de filmes e séries, que estão em alta, no cinema etc.",
-        "imagens": [
-            "/images/projetos/filmes-series/img_1.png",
-            "/images/projetos/filmes-series/img_2.png",
-            "/images/projetos/filmes-series/img_3.png",
-            "/images/projetos/filmes-series/img_4.png",
-            "/images/projetos/filmes-series/img_5.png"
-        ],
-        "tecnologias": [
-            {
-                "nome": "HTML",
-                "icone": "/images/icons/html-5.svg"
-            },
-            {
-                "nome": "CSS",
-                "icone": "/images/icons/css3.svg"
-            },
-            {
-                "nome": "Javascript",
-                "icone": "/images/icons/javascript.svg"
-            }
-        ],
-        "link": "https://github.com/estevaotl/projeto-listagem-filmes-series"
-    },
-    {
-        "id": 6,
-        "titulo": "Mini API Rest",
-        "descricao": "Esse projeto foi feito visando o aprofundamento no estudo do back-end. Para isso, foi criado uma API Restful para envio de emails, utilizando principios do Solid.",
-        "imagens": [
-            "/images/projetos/api-nodejs-typescript/img_1.png",
-            "/images/projetos/api-nodejs-typescript/img_2.png"
-        ],
-        "tecnologias": [
-            {
-                "nome": "NodeJS",
-                "icone": "/images/icons/nodejs.svg"
-            },
-            {
-                "nome": "Typescript",
-                "icone": "/images/icons/typescript.svg"
-            }
-        ],
-        "link": "https://github.com/estevaotl/api-rest-solid-nodejs-typescript"
-    }
+  {
+    "id": 7,
+    "titulo": "Sistema de receitas",
+    "descricao": "Mesa: um caderno pessoal de receitas com fotos, coleções e um modo cozinhar com ajuste de porções e temporizador.",
+    "contexto": "Teste técnico / A4PM",
+    "categoria": "Full Stack",
+    "destaque": true,
+    "visual": "receitas",
+    "imagens": [
+      "/images/projetos/receitas/pagina-inicial.webp",
+      "/images/projetos/receitas/caderno-receitas.webp",
+      "/images/projetos/receitas/modo-cozinhar.webp",
+      "/images/projetos/receitas/nova-receita.webp",
+      "/images/projetos/receitas/impressao.webp",
+      "/images/projetos/receitas/caderno-mobile.webp"
+    ],
+    "imagemAlt": "Página inicial da Mesa com apresentação do caderno de receitas e prato de espaguete",
+    "legendasImagens": [
+      "Página inicial da Mesa, com apresentação do caderno e acesso à demonstração",
+      "Caderno pessoal com fotos, busca, coleções e receitas favoritas",
+      "Modo cozinhar com porções ajustáveis, checklist, etapas e temporizador",
+      "Cadastro de receita com foto, história, ingredientes e coleção",
+      "Receita preparada para impressão, com história, ingredientes e modo de preparo",
+      "Caderno de receitas adaptado para o celular"
+    ],
+    "tecnologias": [
+      {
+        "nome": "Laravel"
+      },
+      {
+        "nome": "Vue.js"
+      },
+      {
+        "nome": "MySQL"
+      },
+      {
+        "nome": "Docker"
+      },
+      {
+        "nome": "Cypress"
+      }
+    ],
+    "link": "https://github.com/estevaotl/projeto-laravel-receitas-a4pm",
+    "desafio": "Construir, para um teste técnico, um sistema que reúne autenticação e gerenciamento de receitas em um ambiente reproduzível.",
+    "solucao": "O teste técnico evoluiu para a Mesa, com Laravel e Vue.js integrados pelo Inertia. O caderno reúne fotos, histórias, coleções e favoritos; o modo cozinhar acompanha ingredientes, porções e tempo de preparo. O projeto mantém ambiente Docker, documentação de API e testes.",
+    "entregas": [
+      "Cadastro e login de usuários",
+      "Receitas com fotos, histórias, coleções e favoritos",
+      "Busca, filtros e impressão de receitas",
+      "Modo cozinhar com ajuste de porções, checklist e temporizador",
+      "Ambiente em containers e documentação da API",
+      "Arquivos de testes com PHPUnit e Cypress"
+    ]
+  },
+  {
+    "id": 8,
+    "titulo": "Match Serviços",
+    "descricao": "Uma plataforma para encontrar profissionais por especialidade e proximidade, conhecer seus trabalhos e acompanhar serviços.",
+    "contexto": "Projeto de conclusão de curso",
+    "categoria": "Full Stack",
+    "destaque": true,
+    "visual": "match",
+    "imagens": [
+      "/images/projetos/match-servicos/01-inicio-desktop.webp",
+      "/images/projetos/match-servicos/02-busca-desktop.webp",
+      "/images/projetos/match-servicos/03-perfil-profissional-desktop.webp",
+      "/images/projetos/match-servicos/04-login-desktop.webp",
+      "/images/projetos/match-servicos/07-conta-cliente-desktop.webp",
+      "/images/projetos/match-servicos/08-conta-profissional-desktop.webp",
+      "/images/projetos/match-servicos/09-servicos-desktop.webp",
+      "/images/projetos/match-servicos/11-fotos-portfolio-desktop.webp",
+      "/images/projetos/match-servicos/02-busca-mobile.webp"
+    ],
+    "imagemAlt": "Página inicial do Match Serviços com apresentação da plataforma e busca de profissionais",
+    "legendasImagens": [
+      "Página inicial do Match Serviços com apresentação e busca de profissionais",
+      "Busca de profissionais por especialidade e proximidade, com dados de demonstração",
+      "Perfil profissional com apresentação e portfólio, com dados de demonstração",
+      "Tela de login do Match Serviços",
+      "Área do cliente com resumo e acompanhamento dos serviços, em demonstração",
+      "Área do profissional com resumo e navegação da conta, em demonstração",
+      "Acompanhamento de serviços por etapa, com dados de demonstração",
+      "Área de fotos e portfólio do profissional, em demonstração",
+      "Busca de profissionais adaptada para o celular, com dados de demonstração"
+    ],
+    "tecnologias": [
+      {
+        "nome": "PHP"
+      },
+      {
+        "nome": "Slim"
+      },
+      {
+        "nome": "React"
+      },
+      {
+        "nome": "MySQL"
+      }
+    ],
+    "link": "https://github.com/estevaotl/match-servicos",
+    "desafio": "Conectar quem precisa de um serviço a profissionais próximos e organizar o contato e o acompanhamento dos trabalhos.",
+    "solucao": "Interface React conectada a uma API REST em PHP e Slim, com persistência em MySQL. Reúne busca por proximidade, perfis e áreas para clientes e profissionais. As capturas mostram a interface local; perfis e contas usam dados fictícios identificados como demonstração.",
+    "entregas": [
+      "Cadastro e autenticação de usuários",
+      "Busca de profissionais por especialidade e proximidade geográfica",
+      "Portfólios de profissionais com imagens",
+      "Áreas de conta para clientes e profissionais",
+      "Interface para acompanhar serviços e editar o perfil"
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Mini e-commerce",
+    "descricao": "Nuvix: uma loja de roupas e acessórios com catálogo, sacola e entrega, conectada à gestão de produtos, cupons e pedidos.",
+    "imagens": [
+      "/images/projetos/mini-ecommerce/01-vitrine.webp",
+      "/images/projetos/mini-ecommerce/02-catalogo.webp",
+      "/images/projetos/mini-ecommerce/03-detalhes-produto.webp",
+      "/images/projetos/mini-ecommerce/04-sacola.webp",
+      "/images/projetos/mini-ecommerce/05-entrega.webp",
+      "/images/projetos/mini-ecommerce/06-gestao-produtos.webp",
+      "/images/projetos/mini-ecommerce/07-gestao-cupons.webp",
+      "/images/projetos/mini-ecommerce/08-gestao-pedidos.webp",
+      "/images/projetos/mini-ecommerce/09-loja-mobile.webp"
+    ],
+    "legendasImagens": [
+      "Vitrine Nuvix com campanha e acesso à coleção",
+      "Catálogo com busca, filtros, favoritos e cores disponíveis",
+      "Detalhes da peça com galeria, cores, tamanhos e guia de medidas",
+      "Sacola lateral com peças, quantidades, frete e total",
+      "Entrega em etapas, com endereço, cupom e revisão do pedido",
+      "Gestão de produtos e variações com busca, filtros, preços e estoque",
+      "Gestão de cupons com validade, desconto e valor mínimo",
+      "Gestão de pedidos com busca, filtros e resumo dos registros",
+      "Catálogo no celular com busca, favoritos e sacola acessíveis"
+    ],
+    "tecnologias": [
+      {
+        "nome": "PHP"
+      },
+      {
+        "nome": "Slim"
+      },
+      {
+        "nome": "Twig"
+      },
+      {
+        "nome": "MVC"
+      }
+    ],
+    "link": "https://github.com/estevaotl/mini-ecommerce",
+    "contexto": "Projeto pessoal",
+    "categoria": "Full Stack",
+    "destaque": true,
+    "visual": "commerce",
+    "desafio": "Conectar cadastro de produtos, variações e cupons a um fluxo de compra com frete e pedidos.",
+    "solucao": "Aplicação em PHP, Slim e Twig com a identidade Nuvix. A loja conecta catálogo, variações, sacola e entrega à gestão de produtos, cupons e pedidos. Preços e estoque são conferidos no servidor ao registrar o pedido.",
+    "entregas": [
+      "Catálogo responsivo com busca, filtros e favoritos",
+      "Galeria de produto com cores e tamanhos",
+      "Sacola, cupons e entrega com validação dos dados",
+      "Gestão de produtos, variações, preços e estoque",
+      "Gestão de cupons e consulta dos pedidos"
+    ],
+    "imagemAlt": "Vitrine Nuvix com campanha de roupas e acesso à coleção"
+  },
+  {
+    "id": 9,
+    "titulo": "Uber Clone",
+    "descricao": "Um estudo de mobilidade com Vue.js, mapas e gerenciamento de estado. Desenvolvido a partir de um tutorial, com suporte a PWA.",
+    "contexto": "Projeto de estudo / Tutorial",
+    "categoria": "Front-end",
+    "destaque": true,
+    "visual": "maps",
+    "imagens": [],
+    "tecnologias": [
+      {
+        "nome": "Vue.js"
+      },
+      {
+        "nome": "Pinia"
+      },
+      {
+        "nome": "Node.js"
+      },
+      {
+        "nome": "Google Maps"
+      },
+      {
+        "nome": "PWA"
+      }
+    ],
+    "link": "https://github.com/estevaotl/uber-clone",
+    "desafio": "Explorar interfaces com mapas e o gerenciamento de estado em uma aplicação de mobilidade.",
+    "solucao": "Aplicação de estudo com Vue 3, Pinia e integração com Google Maps, acompanhada de um servidor Node.js e configuração de PWA. Desenvolvida com um tutorial como referência.",
+    "entregas": [
+      "Interface construída com Vue 3",
+      "Gerenciamento de estado com Pinia",
+      "Integração com Google Maps",
+      "Configuração de aplicação PWA"
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "API de envio de e-mails",
+    "descricao": "Um estudo de API REST com Node.js e TypeScript, aplicando princípios SOLID à organização do código.",
+    "imagens": [
+      "/images/projetos/api-nodejs-typescript/img_1.png",
+      "/images/projetos/api-nodejs-typescript/img_2.png"
+    ],
+    "tecnologias": [
+      {
+        "nome": "Node.js",
+        "icone": "/images/icons/nodejs.svg"
+      },
+      {
+        "nome": "TypeScript",
+        "icone": "/images/icons/typescript.svg"
+      }
+    ],
+    "link": "https://github.com/estevaotl/api-rest-solid-nodejs-typescript",
+    "contexto": "Projeto de estudo",
+    "categoria": "Back-end",
+    "destaque": true,
+    "visual": "image",
+    "desafio": "Organizar uma API de envio de e-mails com responsabilidades separadas e código fácil de manter.",
+    "solucao": "Uso de TypeScript e princípios SOLID para estruturar a API e separar as responsabilidades da aplicação.",
+    "entregas": [
+      "API REST para envio de e-mails",
+      "Organização do código com princípios SOLID",
+      "Implementação em Node.js e TypeScript"
+    ],
+    "imagemAlt": "Demonstração do envio de e-mails pela API"
+  },
+  {
+    "id": 1,
+    "titulo": "Portfólio",
+    "descricao": "Desenvolvi essa aplicação para expor os projetos pessoais que tenho desenvolvido. Ela consome um JSON com as informações de cada projeto, e retorna um card para cada um deles, contendo título, descrição, link da aplicação, link do repositório no GitHub, imagem e a stack utilizada no desenvolvimento.",
+    "imagens": ["/images/projetos/portifolio/img_1.png"],
+    "tecnologias": [
+      {
+        "nome": "Vue.js",
+        "icone": "/images/icons/vue.svg"
+      },
+      {
+        "nome": "Tailwind",
+        "icone": "/images/icons/tailwind.svg"
+      }
+    ],
+    "link": "https://github.com/estevaotl/novo-portifolio",
+    "contexto": "Projeto de estudo",
+    "categoria": "Front-end",
+    "destaque": false,
+    "visual": "image",
+    "desafio": "Aprofundar o conhecimento nas tecnologias utilizadas em uma aplicação prática.",
+    "solucao": "Desenvolvi essa aplicação para expor os projetos pessoais que tenho desenvolvido. Ela consome um JSON com as informações de cada projeto, e retorna um card para cada um deles, contendo título, descrição, link da aplicação, link do repositório no GitHub, imagem e a stack utilizada no desenvolvimento.",
+    "entregas": []
+  },
+  {
+    "id": 2,
+    "titulo": "Todo List",
+    "descricao": "Este é um projeto de Todo List desenvolvido em Vue 3, Json-server e TailwndCSS. Trata-se de um projeto introdutório do curso do Tiago Matos, com o objetivo de aprofundar os conhecimentos em Vue, explorando os recursos do Vue 3, bem como a utilização do TailwindCSS para a construção do frontend.",
+    "imagens": [
+      "/images/projetos/todo-list-vue-3/img_1.png",
+      "/images/projetos/todo-list-vue-3/img_2.png",
+      "/images/projetos/todo-list-vue-3/img_3.png"
+    ],
+    "tecnologias": [
+      {
+        "nome": "Vue.js",
+        "icone": "/images/icons/vue.svg"
+      },
+      {
+        "nome": "Tailwind",
+        "icone": "/images/icons/tailwind.svg"
+      }
+    ],
+    "link": "https://github.com/estevaotl/todo-list-vue-3",
+    "contexto": "Projeto de estudo",
+    "categoria": "Front-end",
+    "destaque": false,
+    "visual": "image",
+    "desafio": "Aprofundar o conhecimento nas tecnologias utilizadas em uma aplicação prática.",
+    "solucao": "Este é um projeto de Todo List desenvolvido em Vue 3, Json-server e TailwndCSS. Trata-se de um projeto introdutório do curso do Tiago Matos, com o objetivo de aprofundar os conhecimentos em Vue, explorando os recursos do Vue 3, bem como a utilização do TailwindCSS para a construção do frontend.",
+    "entregas": []
+  },
+  {
+    "id": 3,
+    "titulo": "Mini Api",
+    "descricao": "Este é um projeto de uma Mini API desenvolvida em NodeJS, utilizando o framework Fastify e Swagger, com o objetivo de aprofundar os conhecimentos em Node e também na utilização do Swagger, para tornar as APIs auto-documentáveis.",
+    "imagens": [
+      "/images/projetos/api-swagger/img_1.png",
+      "/images/projetos/api-swagger/img_2.png",
+      "/images/projetos/api-swagger/img_3.png"
+    ],
+    "tecnologias": [
+      {
+        "nome": "Fastify",
+        "icone": "/images/icons/fastify.svg"
+      },
+      {
+        "nome": "Node.js",
+        "icone": "/images/icons/nodejs.svg"
+      },
+      {
+        "nome": "Swagger",
+        "icone": "/images/icons/swagger.svg"
+      }
+    ],
+    "link": "https://github.com/estevaotl/projeto-api-nodejs-swagger",
+    "contexto": "Projeto de estudo",
+    "categoria": "Back-end",
+    "destaque": false,
+    "visual": "image",
+    "desafio": "Aprofundar o conhecimento nas tecnologias utilizadas em uma aplicação prática.",
+    "solucao": "Este é um projeto de uma Mini API desenvolvida em NodeJS, utilizando o framework Fastify e Swagger, com o objetivo de aprofundar os conhecimentos em Node e também na utilização do Swagger, para tornar as APIs auto-documentáveis.",
+    "entregas": []
+  },
+  {
+    "id": 5,
+    "titulo": "Listagem de filmes e séries",
+    "descricao": "Esse projeto foi feito visando o aprofundamento no estudo do front-end e consumo de API's, na qual utilizei a TMDB, para exibição de filmes e séries, que estão em alta, no cinema etc.",
+    "imagens": [
+      "/images/projetos/filmes-series/img_1.png",
+      "/images/projetos/filmes-series/img_2.png",
+      "/images/projetos/filmes-series/img_3.png",
+      "/images/projetos/filmes-series/img_4.png",
+      "/images/projetos/filmes-series/img_5.png"
+    ],
+    "tecnologias": [
+      {
+        "nome": "HTML",
+        "icone": "/images/icons/html-5.svg"
+      },
+      {
+        "nome": "CSS",
+        "icone": "/images/icons/css3.svg"
+      },
+      {
+        "nome": "JavaScript",
+        "icone": "/images/icons/javascript.svg"
+      }
+    ],
+    "link": "https://github.com/estevaotl/projeto-listagem-filmes-series",
+    "contexto": "Projeto de estudo",
+    "categoria": "Front-end",
+    "destaque": false,
+    "visual": "image",
+    "desafio": "Aprofundar o conhecimento nas tecnologias utilizadas em uma aplicação prática.",
+    "solucao": "Esse projeto foi feito visando o aprofundamento no estudo do front-end e consumo de API's, na qual utilizei a TMDB, para exibição de filmes e séries, que estão em alta, no cinema etc.",
+    "entregas": []
+  }
 ]
